@@ -46,10 +46,10 @@ function DocsNav() {
 function ProductIntro() {
   const features = [
     { icon: <Sparkles size={20} />, title: '智能匹配分镜', desc: '颜色、标签、文案语义三重对齐，自动选取最匹配的视频片段' },
-    { icon: <Repeat size={20} />, title: '批量全自动', desc: '一键日产100+条原创带货视频，7×24小时不间断创作' },
+    { icon: <Repeat size={20} />, title: '批量全自动', desc: '一键日产1000+条原创带货视频，7×24小时不间断创作' },
     { icon: <Smartphone size={20} />, title: '竖屏9:16输出', desc: '默认1080×1920竖屏，适配抖音、TikTok、快手全平台' },
     { icon: <Speaker size={20} />, title: '多音色配音', desc: '10+种音色可选，涵盖年轻女声、成熟男声、活力童声等' },
-    { icon: <Music size={20} />, title: '自有BGM混音', desc: '导入自己的背景音乐，自动混音合成，告别版权担忧' },
+    { icon: <Music size={20} />, title: '随机背景音乐', desc: '内置多风格背景音乐，批量创作时随机配乐，无需手动挑选' },
     { icon: <Monitor size={20} />, title: 'Mac/Windows跨平台', desc: '原生桌面应用，本地运行无需联网，保护商品数据安全' },
   ];
 
@@ -151,7 +151,7 @@ function Tutorial() {
         <div className="card" style={{ marginTop: '48px', padding: '32px', textAlign: 'center' }}>
           <h3 style={{ fontSize: '1.25rem', fontWeight: 600, marginBottom: '12px' }}>批量模式</h3>
           <p className="text-body" style={{ maxWidth: '480px', margin: '0 auto' }}>
-            开启批量模式后，AI 会连续创作多条视频。设置好模板后，一键启动，一晚上可生成一周的量，轻松应对大促期间的视频需求。
+            开启批量模式后，AI 会连续创作多条视频。设置好模板后，一键启动，一晚上可搞定一个月的量，轻松应对大促期间的视频需求。
           </p>
         </div>
       </div>
@@ -180,11 +180,11 @@ function FAQ() {
     },
     {
       q: '可以批量生成吗？',
-      a: '可以。开启批量模式后，一键启动，日产 100+ 条视频，轻松应对大促和日常运营需求。',
+      a: '可以。开启批量模式后，一键启动，日产 1000+ 条视频，轻松应对大促和日常运营需求。',
     },
     {
       q: '需要付费吗？',
-      a: '提供免费试用版本，包含基础功能。高级功能如更多音色、自有 BGM 上传等可按需解锁。',
+      a: '提供免费试用版本，包含基础功能。高级功能如更多音色、批量模式等可按需解锁。',
     },
   ];
 
