@@ -10,7 +10,6 @@ import {
   Speaker,
   ArrowRight,
   Check,
-  GitFork,
   FileText,
   Mail,
 } from 'lucide-react';
