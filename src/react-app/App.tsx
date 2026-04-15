@@ -4,7 +4,6 @@ import {
   Layers,
   Music,
   Download,
-  Monitor,
   Repeat,
   Smartphone,
   Speaker,
