@@ -5,6 +5,7 @@ import {
   Music,
   Download,
   Monitor,
+  Apple,
   Repeat,
   Smartphone,
   Speaker,
